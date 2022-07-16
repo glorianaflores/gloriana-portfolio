@@ -1,0 +1,25 @@
+@import "../../styles/constants.scss";
+@import "../../styles/utils.scss";
+
+.heroContainer {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $color-dark-blue;
+}
+
+.darkContainer {
+    background-color: $color-dark-blue;
+    color: $color-silver;
+    color: $color-white;
+}
+
+.heroContainer,
+.container {
+    @include container;
+}
+
+.container {
+    padding: 4rem 1rem 1rem;
+}

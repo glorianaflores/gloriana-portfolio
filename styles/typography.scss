@@ -1,0 +1,98 @@
+$font-primary: "Bebas Neue", cursive;
+$font-secondary: "Alegreya Sans", sans-serif;
+
+@mixin base-heading() {
+    font-family: $font-primary;
+}
+
+@mixin heading-h1() {
+    @include base-heading();
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+@mixin heading-h2() {
+    @include base-heading();
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+}
+
+@mixin heading-h3() {
+    @include base-heading();
+    font-size: 2rem;
+    line-height: 2.25rem;
+}
+
+@mixin heading-h4() {
+    @include base-heading();
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+@mixin heading-h5() {
+    @include base-heading();
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+@mixin heading-h6() {
+    @include base-heading();
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+@mixin hero() {
+    @include base-heading();
+    font-size: 7rem;
+}
+
+@mixin base-body() {
+    font-family: $font-secondary;
+}
+
+@mixin body-xl() {
+    @include base-body();
+    font-size: 3rem;
+    line-height: 3.25rem;
+}
+
+@mixin body-1() {
+    @include base-body();
+    font-size: 2rem;
+    line-height: 2.25rem;
+}
+
+@mixin body-2() {
+    @include base-body();
+    font-size: 1.75rem;
+    line-height: 2rem;
+}
+
+
+@mixin body-3() {
+    @include base-body();
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+
+@mixin body-4() {
+    @include base-body();
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+
+@mixin body-5() {
+    @include base-body();
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+
+@mixin body-6() {
+    @include base-body();
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+

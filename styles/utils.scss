@@ -1,0 +1,7 @@
+@import "./constants.scss";
+
+@mixin container() {
+    max-width: 56rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
