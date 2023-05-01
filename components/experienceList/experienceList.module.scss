@@ -1,4 +1,4 @@
-@import '../../styles/constants.scss';
+@import "/styles/constants.scss";
 
 .list {
     list-style: none;
@@ -15,7 +15,7 @@
 
 .leftSide {
     width: 40%;
-    color: $color-light-blue;
+    color: $color-primary;
     display: flex;
     justify-content: flex-end;
     padding-right: 2rem;
@@ -27,12 +27,12 @@
 }
 
 .eyebrow {
-    color: $color-silver;
+    color: $color-secondary;
     letter-spacing: 0.0625rem;
-   text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .description {
     margin-top: 1rem;
-    color: $color-silver;
+    color: $color-secondary;
 }

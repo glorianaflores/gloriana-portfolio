@@ -1,0 +1,8 @@
+@import "styles/utils.scss";
+
+.containerWrapper {
+    width: 100%;
+}
+.container {
+    @include container($padding: 8rem 4rem, $mobile-padding: 6rem 1rem 6rem);
+}

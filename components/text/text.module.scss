@@ -1,42 +1,37 @@
-@import "../../styles/typography.scss";
-@import "../../styles/constants.scss";
+@import "styles/typography.scss";
+@import "styles/constants.scss";
 
 .root {
     margin: 0;
     padding: 0;
 }
 
-.heading1 {
+.h1 {
     @include heading-h1;
 }
 
-.heading2 {
+.h2 {
     @include heading-h2;
 }
 
-.heading3 {
+.h3 {
     @include heading-h3;
 }
 
-.heading4 {
+.h4 {
     @include heading-h4;
 }
 
-.heading5 {
+.h5 {
     @include heading-h5;
 }
 
-.heading6 {
+.h6 {
     @include heading-h6;
 }
 
 .hero {
     @include hero;
-}
-
-.bodyXl {
-    @include body-xl;
-    font-weight: 600;
 }
 
 .body1 {
@@ -47,18 +42,6 @@
     @include body-2;
 }
 
-.body3 {
-    @include body-3;
-}
-
-.body4 {
-    @include body-4;
-}
-
-.body5 {
-    @include body-5;
-}
-
-.body6 {
-    @include body-6;
+.label {
+    @include label;
 }

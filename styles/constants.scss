@@ -1,5 +1,25 @@
-$color-light-blue: #4f5d75;
-$color-dark-blue: #2d3142;
-$color-silver: #bfc0c0;
-$color-white: #ffffff;
-$color-mandarin: #ef8354;
+$color-primary: #051932;
+$color-secondary: #2d3142;
+$color-terciary: #019dea;
+$color-white: #fff;
+$color-black: #000;
+
+$colors: (
+    primary: $color-primary,
+    secondary: $color-secondary,
+    terciary: $color-terciary,
+    white: $color-white,
+    black: $color-black,
+);
+
+$breakpoints: (
+    "tablet": (
+        min-width: 767px,
+    ),
+    "desktop": (
+        min-width: 1100px,
+    ),
+    "extra-wide": (
+        min-width: 2560px,
+    ),
+);

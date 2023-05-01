@@ -1,98 +1,101 @@
-$font-primary: "Bebas Neue", cursive;
-$font-secondary: "Alegreya Sans", sans-serif;
+@import "./mixins.scss";
+@import "./constants.scss";
+
+$font-primary: "Lato", sans-serif;
+$font-secondary: $font-primary;
 
 @mixin base-heading() {
     font-family: $font-primary;
+    font-weight: 500;
 }
 
 @mixin heading-h1() {
     @include base-heading();
-    font-size: 3rem;
-    line-height: 3.6rem;
+    font-size: 2rem;
+    line-height: 2.25rem;
+    @include media(tablet) {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
 }
 
 @mixin heading-h2() {
     @include base-heading();
-    font-size: 2.5rem;
-    line-height: 2.75rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
+    @include media(tablet) {
+        font-size: 2rem;
+        line-height: 2.25rem;
+    }
 }
 
 @mixin heading-h3() {
     @include base-heading();
-    font-size: 2rem;
-    line-height: 2.25rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    @include media(tablet) {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
 }
 
 @mixin heading-h4() {
     @include base-heading();
-    font-size: 1.5rem;
-    line-height: 1.75rem;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    @include media(tablet) {
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+    }
 }
 
 @mixin heading-h5() {
     @include base-heading();
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1rem;
 }
 
 @mixin heading-h6() {
     @include base-heading();
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     line-height: 1rem;
 }
 
 @mixin hero() {
     @include base-heading();
-    font-size: 7rem;
+    font-size: 4.5rem;
+    line-height: 4.75rem;
+    @include media(tablet) {
+        font-size: 7rem;
+        line-height: 7.25rem;
+    }
 }
 
 @mixin base-body() {
+    font-weight: 300;
     font-family: $font-secondary;
-}
-
-@mixin body-xl() {
-    @include base-body();
-    font-size: 3rem;
-    line-height: 3.25rem;
 }
 
 @mixin body-1() {
     @include base-body();
-    font-size: 2rem;
-    line-height: 2.25rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 @mixin body-2() {
     @include base-body();
-    font-size: 1.75rem;
-    line-height: 2rem;
-}
-
-
-@mixin body-3() {
-    @include base-body();
-    font-size: 1.5rem;
-    line-height: 1.75rem;
-}
-
-
-@mixin body-4() {
-    @include base-body();
-    font-size: 1.25rem;
+    font-size: 1rem;
     line-height: 1.5rem;
 }
 
-
-@mixin body-5() {
+@mixin label() {
     @include base-body();
+    text-transform: uppercase;
+    color: $color-terciary;
     font-size: 1rem;
     line-height: 1.25rem;
+    @include media(tablet) {
+        font-size: 1.15rem;
+        line-height: 1.25rem;
+    }
 }
-
-
-@mixin body-6() {
-    @include base-body();
-    font-size: 0.75rem;
-    line-height: 1rem;
-}
-

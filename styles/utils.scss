@@ -1,7 +1,12 @@
 @import "./constants.scss";
+@import "./mixins.scss";
 
-@mixin container() {
-    max-width: 56rem;
-    padding: 0 1rem;
-    margin: 0 auto;
+@mixin container($padding: 0 1rem, $mobile-padding: 0 1rem) {
+    width: 100%;
+    padding: $mobile-padding;
+    @include media(tablet) {
+        max-width: 56rem;
+        padding: $padding;
+        margin: 0 auto;
+    }
 }

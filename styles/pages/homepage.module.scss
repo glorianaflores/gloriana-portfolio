@@ -1,25 +1,36 @@
 @import "../../styles/constants.scss";
 @import "../../styles/utils.scss";
+@import "../../styles/mixins.scss";
 
-.heroContainer {
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $color-dark-blue;
+.wrapper {
+    position: relative;
+    overflow: hidden;
 }
 
-.darkContainer {
-    background-color: $color-dark-blue;
-    color: $color-silver;
-    color: $color-white;
+.content {
+    @include media(tablet) {
+        width: 70%;
+        margin: 0;
+    }
 }
 
-.heroContainer,
-.container {
-    @include container;
+.title {
+    text-align: left;
+    margin: 1rem 0 1.5rem;
 }
 
-.container {
-    padding: 4rem 1rem 1rem;
+.logo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url("/images/web-programming.png");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
+    background-size: contain;
+    bottom: -20%;
+    right: -40%;
+    opacity: 0.15;
+    box-sizing: border-box;
 }

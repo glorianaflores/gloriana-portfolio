@@ -1,6 +1,7 @@
-export const HOMEPAGE_TITLE = "Web developer";
+export const CV_NAME = "I'm Gloriana Flores";
+export const HOMEPAGE_TITLE = "Senior Fullstack Software Developer";
 export const HOMEPAGE_DESCRIPTION =
-    "Building responsive web applications to solve your complex business problems.";
+    "I've build Responsive Web applications using multiple programming languages. Love to teach, expand my knowledge, and learn from others.";
 
 export const EXPERIENCE = [
     {
