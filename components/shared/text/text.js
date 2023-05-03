@@ -6,6 +6,7 @@ export default function Text({
     style = "body1",
     tag = "p",
     color,
+    alignment,
     className,
 }) {
     const Tag = tag;
@@ -15,6 +16,7 @@ export default function Text({
             className={cx(styles.root, className, {
                 [styles[style]]: style,
                 [`color-${color}`]: color,
+                [styles[`alignment-${alignment}`]]: alignment,
             })}
         >
             {value}

@@ -2,6 +2,9 @@ export const CV_NAME = "I'm Gloriana Flores";
 export const HOMEPAGE_TITLE = "Senior Fullstack Software Developer";
 export const HOMEPAGE_DESCRIPTION =
     "I've build Responsive Web applications using multiple programming languages. Love to teach, expand my knowledge, and learn from others.";
+export const EXPERIENCE_TITLE = "Work Experience";
+export const EXPERIENCE_DESCRIPTION =
+    "Web pages, responsive pages, databases. Teaching 8 weeks ReactJS/Node.js in a bootcamp. Mentor of juniors/mids.";
 
 export const EXPERIENCE = [
     {

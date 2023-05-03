@@ -1,4 +1,4 @@
-import Text from "../text/text";
+import Text from "../shared/text/text";
 import { EXPERIENCE } from "../../libs/constants";
 import styles from "./experienceList.module.scss";
 
