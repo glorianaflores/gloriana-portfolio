@@ -9,24 +9,32 @@ export const EXPERIENCE_DESCRIPTION =
 export const EXPERIENCE = [
     {
         startDate: 2022,
+        position: "Senior Software Developer",
+        description:
+            "Designing solutions for client problems. In charge of review merge requests. Building and giving support to AEM web applications.",
+        place: "Konrad Group",
+    },
+    {
+        startDate: 2022,
         endDate: 2022,
         position: "Teacher",
         description:
-            "Immersive Program teacher description lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum ipsum.",
+            "Teaching HTML, CSS, Node, ReactJS, SASS, REST, GIT to computer science students full-time for 8 weeks.",
         place: "Konrad Group",
     },
     {
         startDate: 2021,
+        endDate: 2022,
         position: "Software Developer II",
         description:
-            "Software Developer description lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum ipsum.",
+            "Software Developer with higher responsability in projects than junior software developer. ",
         place: "Konrad Group",
     },
     {
         startDate: 2021,
         position: "Mentor",
         description:
-            "Software Developer mentor description lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum ipsum.",
+            "New hires guide for the first 3 months, reviewing their first React internal project.",
         place: "Konrad Group",
     },
     {
@@ -34,7 +42,7 @@ export const EXPERIENCE = [
         endDate: 2021,
         position: "Software Developer",
         description:
-            "Software Developer mentor description lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum ipsum.",
+            "Starting to work more independendly with fewer developers or alone with the client.",
         place: "Konrad Group",
     },
     {
@@ -49,14 +57,15 @@ export const EXPERIENCE = [
         endDate: 2020,
         position: "Associate Software Developer",
         description:
-            "Junior description lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum ipsum.",
+            "Junior Software Developer, working on projects fixing bugs or doing maintenance.",
         place: "Konrad Group",
     },
     {
         startDate: 2019,
+        endDate: 2019,
         position: "Software Developer Intern",
         description:
-            "Intern description lorem ipsum lorem ipsum lorem lorem ipsum lorem ipsum ipsum.",
+            "Working on an internal Konrad Group project for 4 months with other 5 students.",
         place: "Konrad Group",
     },
 ];
@@ -67,28 +76,21 @@ export const EDUCATION = [
         startDate: 2019,
         name: "Immersive program",
         place: "Konrad Group",
-        description: "the program description",
-    },
-    {
-        duration: "1 month",
-        startDate: 2019,
-        name: "Figma for principiants",
-        place: "Konrad Group",
-        description: "the program description",
+        description:
+            "Learning about HTML, CSS, Node, ReactJS, Java, REST, GIT.",
     },
     {
         duration: "4+ years",
         startDate: 2015,
         endDate: 2019,
         name: "Computer Engineer Bachelor's degree",
-        description: "the program description",
     },
     {
         duration: "2 weeks",
         startDate: 2018,
         name: "Huawei Intership program",
         place: "Beijing, China - Huawei",
-        description: "the program description",
+        description: "2 weeks of Huawei '5G' basic knowledge transfer.",
     },
 ];
 
@@ -98,7 +100,7 @@ export const COMPLEMENTARY = [
         startDate: 2020,
         name: "Robotics for kids",
         place: "Tirrases, San José, Costa Rica",
-        description: "the program description",
+        description: "Teaching young kids about programming using robots.",
     },
     {
         duration: "2+ years",
@@ -106,7 +108,7 @@ export const COMPLEMENTARY = [
         endDate: 2018,
         name: "IT lead",
         place: "Tecnológico de Costa Rica",
-        description: "the program description",
+        description: "Lead of IT department of Tecnológico de Costa Rica ",
     },
     {
         duration: "2+ years",
@@ -114,27 +116,7 @@ export const COMPLEMENTARY = [
         endDate: 2018,
         name: "Laboratories coordinator",
         place: "Tecnológico de Costa Rica",
-        description: "the program description",
-    },
-    {
-        duration: "4+ years",
-        startDate: 2015,
-        endDate: 2019,
-        name: "Computer Engineer Bachelor's degree",
-        description: "the program description",
-    },
-    {
-        duration: "6 months",
-        startDate: 2018,
-        name: "Recruitment team member",
-        place: "Tecnológico de Costa Rica",
-        description: "the program description",
-    },
-    {
-        duration: "4 days",
-        startDate: 2018,
-        name: "Hackathon staff member",
-        place: "Tecnológico de Costa Rica",
-        description: "the program description",
+        description:
+            "Coordinating who had to open, close and review each lab (4 in total)",
     },
 ];

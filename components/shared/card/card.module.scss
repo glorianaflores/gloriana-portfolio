@@ -1,0 +1,24 @@
+@import "styles/utils.scss";
+
+.card {
+    width: 100%;
+    padding: 2rem;
+    @include media(tablet) {
+        width: calc(50% - 3rem);
+    }
+    @include media(desktop) {
+        width: calc(33.333% - 3rem);
+    }
+}
+
+.text {
+    display: flex;
+    margin-bottom: 0.5rem;
+    @include media(tablet) {
+        justify-content: center;
+    }
+}
+
+.description {
+    margin-top: 1rem;
+}
