@@ -5,6 +5,9 @@ export const HOMEPAGE_DESCRIPTION =
 export const EXPERIENCE_TITLE = "Work Experience";
 export const EXPERIENCE_DESCRIPTION =
     "Web pages, responsive pages, databases. Teaching 8 weeks ReactJS/Node.js in a bootcamp. Mentor of juniors/mids.";
+export const SKILLS_TITLE = "Programming Languages";
+export const SKILLS_DESCRIPTION =
+    "Brive description of how many years do I have working with each programming language.";
 
 export const EXPERIENCE = [
     {
@@ -118,5 +121,78 @@ export const COMPLEMENTARY = [
         place: "Tecnológico de Costa Rica",
         description:
             "Coordinating who had to open, close and review each lab (4 in total)",
+    },
+];
+
+export const SKILLS_LIST = [
+    {
+        language: "HTML",
+        years: "4",
+        icon: "html",
+    },
+    {
+        language: "CSS",
+        years: "4",
+        icon: "css",
+    },
+    {
+        language: "Javascript",
+        years: "4",
+        icon: "js",
+    },
+    {
+        language: "React",
+        years: "4",
+        icon: "react",
+    },
+    {
+        language: "SASS",
+        years: "4",
+        icon: "css",
+    },
+    {
+        language: "NodeJS",
+        years: "2",
+        icon: "node",
+    },
+    {
+        language: "NextJS",
+        years: "1",
+        icon: "nextjs",
+    },
+    {
+        language: "Typescript",
+        years: "1",
+        icon: "ts",
+    },
+    {
+        language: "AEM",
+        years: "3",
+        icon: "aem",
+    },
+    {
+        language: "Java",
+        years: "3",
+        icon: "java",
+    },
+    {
+        language: "Sling",
+        years: "3",
+        icon: "aem",
+    },
+    {
+        language: "Springboot",
+        years: "1",
+        icon: "sprinboot",
+    },
+    {
+        language: "JQuery",
+        years: "1",
+        icon: "jquery",
+    },
+    {
+        language: "Angular",
+        years: "0.5",
+        icon: "angular",
     },
 ];

@@ -1,8 +1,8 @@
 import Head from "next/head";
 
-export const siteTitle = "Gloriana Flores";
+const siteTitle = "Gloriana Flores";
 
-export default function Layout({ children }) {
+export function Layout({ children }) {
     return (
         <div>
             <Head>

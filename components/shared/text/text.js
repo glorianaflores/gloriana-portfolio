@@ -1,7 +1,7 @@
 import cx from "classnames";
 import styles from "./text.module.scss";
 
-export default function Text({
+export function Text({
     value,
     style = "body1",
     tag = "p",

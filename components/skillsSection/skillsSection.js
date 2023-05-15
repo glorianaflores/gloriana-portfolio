@@ -1,31 +1,32 @@
 import { Text, Container, Card } from "../shared";
 import {
-    EXPERIENCE_TITLE,
-    EXPERIENCE_DESCRIPTION,
-    EXPERIENCE,
+    SKILLS_TITLE,
+    SKILLS_DESCRIPTION,
+    SKILLS_LIST,
 } from "../../libs/constants";
-import styles from "./experienceSection.module.scss";
+import { Skill } from "./skill/skill";
+import styles from "./skillsSection.module.scss";
 
-export function ExperienceSection({}) {
+export function SkillsSection({}) {
     return (
-        <Container bg="secondary">
+        <Container bg="primary">
             <div className={styles.content}>
                 <Text
-                    value={EXPERIENCE_TITLE}
+                    value={SKILLS_TITLE}
                     tag="h2"
                     style="h1"
                     color="white"
                     className={styles.title}
                 />
                 <Text
-                    value={EXPERIENCE_DESCRIPTION}
+                    value={SKILLS_DESCRIPTION}
                     style="body1"
                     color="white"
                     className={styles.description}
                 />
-                <div className={styles.experienceList}>
-                    {EXPERIENCE.map((item, i) => (
-                        <Card key={`experience-item-${i}`} {...item} />
+                <div className={styles.skillsList}>
+                    {SKILLS_LIST.map((lg, i) => (
+                        <Skill key={`skill-item-${i}`} {...lg} />
                     ))}
                 </div>
             </div>

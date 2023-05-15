@@ -1,5 +1,4 @@
-import Text from "../shared/text/text";
-import Container from "../shared/container/container";
+import { Text, Container } from "../shared";
 import {
     HOMEPAGE_TITLE,
     HOMEPAGE_DESCRIPTION,

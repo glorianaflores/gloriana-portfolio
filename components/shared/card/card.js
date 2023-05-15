@@ -1,8 +1,8 @@
 import cx from "classnames";
+import { Text } from "../../shared";
 import styles from "./card.module.scss";
-import Text from "../text/text";
 
-export default function Card({
+export function Card({
     position,
     description,
     startDate,
