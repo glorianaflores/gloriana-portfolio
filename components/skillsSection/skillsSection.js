@@ -25,6 +25,11 @@ export function SkillsSection({}) {
                     className={styles.description}
                 />
                 <div className={styles.skillsList}>
+                    <Skill
+                        language={"LANGUAGE"}
+                        years="Total of 4 "
+                        hideShowbar
+                    />
                     {SKILLS_LIST.map((lg, i) => (
                         <Skill key={`skill-item-${i}`} {...lg} />
                     ))}

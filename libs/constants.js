@@ -126,19 +126,9 @@ export const COMPLEMENTARY = [
 
 export const SKILLS_LIST = [
     {
-        language: "HTML",
+        language: "HTML • CSS • JS",
         years: "4",
         icon: "html",
-    },
-    {
-        language: "CSS",
-        years: "4",
-        icon: "css",
-    },
-    {
-        language: "Javascript",
-        years: "4",
-        icon: "js",
     },
     {
         language: "React",
@@ -151,24 +141,24 @@ export const SKILLS_LIST = [
         icon: "css",
     },
     {
+        language: "AEM",
+        years: "3",
+        icon: "aem",
+    },
+    {
         language: "NodeJS",
-        years: "2",
+        years: "3",
         icon: "node",
     },
     {
         language: "NextJS",
-        years: "1",
+        years: "2",
         icon: "nextjs",
     },
     {
         language: "Typescript",
-        years: "1",
+        years: "2",
         icon: "ts",
-    },
-    {
-        language: "AEM",
-        years: "3",
-        icon: "aem",
     },
     {
         language: "Java",

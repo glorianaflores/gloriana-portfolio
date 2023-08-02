@@ -1,8 +1,44 @@
+@import "styles/constants.scss";
+
 .skill {
+    display: flex;
+    align-items: center;
 }
 
 .iconContainer {
+    width: 33.33%;
 }
 
-.progressBarContainer {
+.years {
+    width: 33.3333;
+    min-width: 5rem;
+    text-align: right;
+    justify-self: flex-end;
+}
+
+.title {
+    min-width: 8rem;
+    text-align: right;
+    margin-right: 1rem;
+}
+
+.hiddenprogressBar {
+    width: 100%;
+}
+
+.progressBar {
+    height: 2rem;
+    width: 100%;
+    margin-right: 1rem;
+    position: relative;
+    background-color: $color-secondary;
+}
+
+.progressBarContent {
+    height: 2rem;
+    display: block;
+    background-color: $color-terciary;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
