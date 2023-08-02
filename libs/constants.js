@@ -8,6 +8,7 @@ export const EXPERIENCE_DESCRIPTION =
 export const SKILLS_TITLE = "Programming Languages";
 export const SKILLS_DESCRIPTION =
     "Brive description of how many years do I have working with each programming language.";
+export const TOTAL_YEARS_EXPERIENCE = 4;
 
 export const EXPERIENCE = [
     {
@@ -142,47 +143,47 @@ export const SKILLS_LIST = [
     },
     {
         language: "AEM",
-        years: "3",
+        years: 3,
         icon: "aem",
     },
     {
         language: "NodeJS",
-        years: "3",
+        years: 3,
         icon: "node",
     },
     {
         language: "NextJS",
-        years: "2",
+        years: 2,
         icon: "nextjs",
     },
     {
         language: "Typescript",
-        years: "2",
+        years: 2,
         icon: "ts",
     },
     {
         language: "Java",
-        years: "3",
+        years: 3,
         icon: "java",
     },
     {
         language: "Sling",
-        years: "3",
+        years: 3,
         icon: "aem",
     },
     {
         language: "Springboot",
-        years: "1",
+        years: 1,
         icon: "sprinboot",
     },
     {
         language: "JQuery",
-        years: "1",
+        years: 1,
         icon: "jquery",
     },
     {
         language: "Angular",
-        years: "0.5",
+        years: 0.5,
         icon: "angular",
     },
 ];

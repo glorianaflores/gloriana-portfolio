@@ -1,0 +1,39 @@
+@import "styles/constants.scss";
+@import "styles/utils.scss";
+@import "styles/mixins.scss";
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: $color-secondary;
+    top: 0;
+    right: 0;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 2rem 4rem;
+}
+
+.navItem {
+    margin: 0;
+    padding: 0;
+}
+
+.navItem a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* Media Query for responsive design */
+//TODO
+@media (max-width: 768px) {
+    @include media(tablet) {
+        // ...
+    }
+}

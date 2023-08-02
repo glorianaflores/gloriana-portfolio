@@ -1,19 +1,21 @@
 @import "styles/constants.scss";
 
+$progress-bar-height: 1rem;
+
 .skill {
     display: flex;
     align-items: center;
+    margin-bottom: 0.5rem;
 }
 
-.iconContainer {
-    width: 33.33%;
+.float {
+    display: inline;
+    text-align: right;
 }
 
 .years {
-    width: 33.3333;
-    min-width: 5rem;
-    text-align: right;
-    justify-self: flex-end;
+    min-width: 3.5rem;
+    text-align: left;
 }
 
 .title {
@@ -27,7 +29,7 @@
 }
 
 .progressBar {
-    height: 2rem;
+    height: $progress-bar-height;
     width: 100%;
     margin-right: 1rem;
     position: relative;
@@ -35,10 +37,11 @@
 }
 
 .progressBarContent {
-    height: 2rem;
+    height: $progress-bar-height;
     display: block;
     background-color: $color-terciary;
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 1;
 }
