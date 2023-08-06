@@ -9,7 +9,7 @@ import styles from "./skillsSection.module.scss";
 
 export function SkillsSection({}) {
     return (
-        <Container bg="primary">
+        <Container bg="primary" id="skills">
             <div className={styles.content}>
                 <Text
                     value={SKILLS_TITLE}

@@ -1,4 +1,5 @@
-import { Text } from "../shared";
+import Link from "next/link";
+import { Button } from "../shared";
 import styles from "./Header.module.scss";
 
 export function Header() {
@@ -6,14 +7,25 @@ export function Header() {
         <nav className={styles.header}>
             <ul className={styles.navList}>
                 <li className={styles.navItem}>
-                    {/* TODO */}
-                    <a href="#home">Home</a>
+                    <Button
+                        value="Experience"
+                        href="#experience"
+                        className={styles.title}
+                    />
                 </li>
                 <li className={styles.navItem}>
-                    <a href="#about">About</a>
+                    <Button
+                        value="Skills"
+                        href="#skills"
+                        className={styles.title}
+                    />
                 </li>
                 <li className={styles.navItem}>
-                    <a href="#contact">Contact</a>
+                    <Button
+                        value="About me"
+                        href="/aboutMe"
+                        className={styles.title}
+                    />
                 </li>
             </ul>
         </nav>

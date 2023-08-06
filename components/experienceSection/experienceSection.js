@@ -8,7 +8,7 @@ import styles from "./experienceSection.module.scss";
 
 export function ExperienceSection({}) {
     return (
-        <Container bg="secondary">
+        <Container bg="secondary" id="experience">
             <div className={styles.content}>
                 <Text
                     value={EXPERIENCE_TITLE}
